@@ -1,0 +1,17 @@
+Kisan Bazar Android APK build package
+
+Is ZIP mein Android Studio project aur GitHub Actions workflow shamil hai. ChatGPT ke is runtime mein Android SDK/Gradle build environment available nahi tha, is liye compiled APK is ZIP ke andar nahi hai.
+
+Mobile se APK banane ka tareeqa:
+1. ZIP ko extract karein.
+2. GitHub.com par sign in karein aur naya public ya private repository "KisanBazar" banayein.
+3. Extracted files/folders repository ke root mein upload karein (hidden .github folder bhi zaroor upload ho).
+4. Repository mein Actions tab kholein. Agar workflow prompt aaye to enable karein.
+5. "Build Kisan Bazar APK" workflow select karke "Run workflow" dabayein.
+6. Build successful hone par run ke neeche Artifacts mein "Kisan-Bazar-APK" download karein. ZIP extract karne par app-debug.apk milegi.
+7. APK ko Android phone par khol kar install karein. Agar pooche to browser/file manager ke liye "Install unknown apps" allow karein.
+
+Note:
+- Ye debug APK hogi, Play Store release ke liye signed release build alag se chahiye.
+- Is app ki listings filhal device-local hain; users ke darmiyan listings share karne ke liye online database/backend aur hosting abhi add karna hoga.
+- APK build karne ke liye GitHub account aur internet zaroori hain.
